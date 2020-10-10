@@ -1,0 +1,82 @@
+git:
+    color-tools:
+        url: https://github.com/trilbymedia/grav-plugin-color-tools
+        path: user/plugins/color-tools
+        branch: master    
+    error:
+        url: https://github.com/getgrav/grav-plugin-error
+        path: user/plugins/error
+        branch: master
+    form:
+        url: https://github.com/getgrav/grav-plugin-form
+        path: user/plugins/form
+        branch: master    
+    lightbox-gallery:
+        url: https://github.com/trilbymedia/grav-plugin-lightbox-gallery
+        path: user/plugins/lightbox-gallery
+        branch: master    
+    markdown-notices:
+        url: https://github.com/getgrav/grav-plugin-markdown-notices
+        path: user/plugins/markdown-notices
+        branch: master
+    problems:
+        url: https://github.com/getgrav/grav-plugin-problems
+        path: user/plugins/problems
+        branch: master
+    shortcode-core:
+        url: https://github.com/getgrav/grav-plugin-shortcode-core
+        path: user/plugins/shortcode-core
+        branch: master
+    sitemap:
+        url: https://github.com/getgrav/grav-plugin-sitemap
+        path: user/plugins/sitemap
+        branch: master
+    svg-icons:
+        url: https://github.com/trilbymedia/grav-plugin-svg-icons
+        path: user/plugins/svg-icons
+        branch: master
+    typhoon:
+        url: https://github.com/trilbymedia/grav-theme-typhoon
+        path: user/themes/typhoon
+        branch: master
+links:
+    color-tools:
+        src: grav-plugin-color-tools
+        path: user/plugins/color-tools
+        scm: github    
+    error:
+        src: grav-plugin-error
+        path: user/plugins/error
+        scm: github
+    form:
+        src: grav-plugin-form
+        path: user/plugins/form
+        scm: github    
+    problems:
+        src: grav-plugin-problems
+        path: user/plugins/problems
+        scm: github
+    lightbox-gallery:
+        src: grav-plugin-lightbox-gallery
+        path: user/plugins/lightbox-gallery
+        scm: github    
+    markdown-notices:
+        src: grav-plugin-markdown-notices
+        path: user/plugins/markdown-notices
+        scm: github
+    shortcode-core:
+        src: grav-plugin-shortcode-core
+        path: user/plugins/shortcode-core
+        scm: github
+    sitemap:
+        src: grav-plugin-sitemap
+        path: user/plugins/sitemap
+        scm: github
+    svg-icons:
+        src: grav-plugin-svg-icons
+        path: user/plugins/svg-icons
+        scm: github    
+    typhoon:
+        src: grav-theme-typhoon
+        path: user/themes/typhoon
+        scm: github
