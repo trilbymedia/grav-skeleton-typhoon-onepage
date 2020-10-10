@@ -2,6 +2,8 @@
 
 The *Typhoon One-Page* skeleton is a [Grav](http://github.com/getgrav/grav) skeleton and includes a *user* folder giving an example of a one-page set up using Grav powered by the Typhoon theme.
 
+![Typhoon](screenshot.jpg)
+
 # Installation
 
 To install this package, you will essentially be replacing the default `user` folder with the skeleton. To do this, download the zip version of this repository and unzip it under `/your/site/grav/`. Then, rename the folder to `user`. 
