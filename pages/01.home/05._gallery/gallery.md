@@ -58,4 +58,4 @@ gallery:
             desc: Praesent et laoreet libero, consequat placerat massa. Integer laoreet, leo et mattis tincidunt, metus nunc auctor enim, sit amet egestas nisl ex at mauris. Duis ex urna, consectetur at posuere sed, consectetur ut dui. Duis pellentesque mi id tincidunt tincidunt. Curabitur blandit massa vitae enim malesuada, vitae vehicula arcu mollis. Maecenas aliquet efficitur orci sit amet iaculis.
 ---
 
-This gallery module takes advantage of the new premium `Gallery Lightbox` plugin for Grav.  This is a very flexible and configurable plugin which supports a variety of uses including **markdown lightbox**, **shortcode**, and **twig**.
+This gallery module takes advantage of the new premium `Lightbox Gallery` plugin for Grav.  This is a very flexible and configurable plugin which supports a variety of uses including **markdown lightbox**, **shortcode**, and **twig**.
