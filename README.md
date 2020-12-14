@@ -1,17 +1,43 @@
 # Typhoon One-Page Skeleton
 
-The *Typhoon One-Page* skeleton is a [Grav](http://github.com/getgrav/grav) skeleton and includes a *user* folder giving an example of a one-page set up using Grav powered by the Typhoon theme.
+This skeleton serves as a basic content skeleton for demonstrating a simple **one-page site** with the [Typhoon Grav Premium Theme](https://getgrav.org/premium/typhoon).
 
-![Typhoon](screenshot.jpg)
+![](screenshot.jpg)
 
-# Installation
+## Installation
 
-To install this package, you will essentially be replacing the default `user` folder with the skeleton. To do this, download the zip version of this repository and unzip it under `/your/site/grav/`. Then, rename the folder to `user`. 
+1. Download latest Grav package.  Either [Grav 1.6](https://getgrav.org/download/core/grav/latest) or [Grav 1.7RC](https://getgrav.org/download/core/grav/latest?testing)
 
-If a user folder already exists, back up the folder to a safe place, delete it (if there is no custom content in it you wish to keep) or replace its contents with the files in the unzipped folder.
+2. Unzip the `grav-v*.zip` file.
 
-You should now have all the skeleton files under
+3. Download and unzip the `grav-skeleton-typhoon-onepage.zip` Skeleton package and unzip it.
 
-	/your/site/grav/user/
+4. Replace the default `user/` folder with this skeleton's extracted folder, and rename it to `user/`
 
->> NOTE: This skeleton is a modular component for Grav which requires [Grav](http://github.com/getgrav/grav), the [Error](https://github.com/getgrav/grav-plugin-error) and [Problems](https://github.com/getgrav/grav-plugin-problems) plugins, and a theme to be installed in order to operate. If you download this skeleton as part of a pre-assembled package from [GetGrav.org](http://getgrav.org/downloads/skeletons#extras), you should have everything you need to get started.
+5. Launch a terminal window and navigate to the root of your Grav installation
+
+6. Confirm you can run CLI commands by typing `bin/gpm version`.  It should output the current version of Grav you are running.
+
+7. Install the `license-manager` plugin with the command:
+
+    ```shell
+    bin/gpm install license-manager
+    ```
+
+8. If you want to continue the process via the admin manager, install that via:
+
+    ```shell
+    bin/gpm install admin
+    ```
+
+9. When you purchased Typhoon you should of received an email with a link to the license page on getgrav.org.  Visit that page and download the `licences.yaml` file.
+
+10. On your machine copy the `licenses.yaml` to the `user/data` folder.  This will allow you to install `typhoon` theme, as well as `svg-icons` and `lightbox-gallery` plugins.
+
+11. For **Typhoon One-Page** skeleton run this command to install all the themes + plugins:
+
+    ```shell
+    bin/gpm install archives error markdown-notices problems typhoon color-tools shortcode-core svg-icons breadcrumbs feed pagination random relatedpages simplesearch taxonomylist
+    ```
+
+Your site should have everything it needs to replicate the **Typhoon One-Page** skeleton site.  Please compare your local copy to the [Typhoon One-Page Demo Site](https://demo.getgrav.org/typhoon/onepage).
