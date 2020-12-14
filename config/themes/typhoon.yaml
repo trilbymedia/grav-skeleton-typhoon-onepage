@@ -1,2 +1,8 @@
 colors:
   primary: '#FF4C41'
+notices:
+  - content: 'Checkout the **[Start Here page](/start-here)** for more information about Typhoon Theme'
+    enabled: true
+    only_homepage: true
+    type: note
+    learn_more_link: '/start-here'
