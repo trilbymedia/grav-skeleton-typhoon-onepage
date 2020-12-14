@@ -37,7 +37,7 @@ This skeleton serves as a basic content skeleton for demonstrating a simple **on
 11. For **Typhoon One-Page** skeleton run this command to install all the themes + plugins:
 
     ```shell
-    bin/gpm install error markdown-notices problems typhoon color-tools lightbox-gallery shortcode-core svg-icons
+    bin/gpm install error markdown-notices form problems typhoon color-tools lightbox-gallery shortcode-core svg-icons
     ```
 
 Your site should have everything it needs to replicate the **Typhoon One-Page** skeleton site.  Please compare your local copy to the [Typhoon One-Page Demo Site](https://demo.getgrav.org/typhoon/onepage).
