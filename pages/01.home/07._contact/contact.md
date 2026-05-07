@@ -40,7 +40,7 @@ form:
     buttons:
         submit:
             type: submit
-            classes: bg-gray-600 hover:bg-gray-900
+            classes: no-default-style text-white bg-gray-700 hover:bg-primary 
             value: 'Submit Form'
     process:
         message: '<b>Thanks!</b> We''ve received your enquiry and will get back to you very soon...'
